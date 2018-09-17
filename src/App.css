@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  margin: 0 auto;
+  float: none;
+}
+
+.todos-wrapper {
+  width: 700px;
+  margin: auto;
+  float: none;
+  text-align: center;
+}

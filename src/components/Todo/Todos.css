@@ -1,0 +1,64 @@
+.todo-wrapper {
+  width: 450px;
+  height: auto;
+  max-height: 600px;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.todo-wrapper:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.todos-wrapper ul>li {
+  list-style-type: none;
+}
+
+.divider {
+  width: 400px;
+  margin-top: -10px;
+}
+
+.todo-content {
+  font-family: serif;
+  font-size: medium;
+  letter-spacing: 0.1em;
+  line-height: 1.5em;
+}
+
+.todo-del-btn {
+  color: red;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.todo-del-btn:hover {
+  background-color: red;
+  color: #fff;
+}
+
+.todo-complete-btn {
+  color: green;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 3px;
+}
+
+.todo-complete-btn:hover {
+  background-color: green;
+  color: #fff;
+}
+
+.todo-undo-btn {
+  color: orange;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 3px;
+}
+
+.todo-undo-btn:hover {
+  background-color: orange;
+  color: #fff;
+}
